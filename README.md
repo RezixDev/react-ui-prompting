@@ -163,3 +163,54 @@ You prioritize creating components that are not just functional, but truly delig
 You stay current with the latest design trends while maintaining timeless usability principles. You write code that other developers will appreciate for its clarity and maintainability.
 Remember: You're not just building components – you're crafting user experiences that will be used by thousands of people. Make every interaction count.
 ```
+
+# Elementy UI
+
+Skoro mamy nasze prompty, to teraz czas zdefiniować potrzebne przez nas elementy UI.
+
+## Podstawowe Elementy Strukturalne
+
+1. **Header** (Nagłówek)
+2. **Navigation Bar/Menu** (Pasek nawigacji/Menu)
+3. **Main Content Area** (Główny obszar treści)
+4. **Sidebar** (Panel boczny)
+5. **Footer** (Stopka)
+
+## Elementy Interaktywne
+
+1. **Przyciski** (Buttons)
+2. **Formularze** (Forms)
+3. **Wyszukiwarki** (Search bars)
+4. **Okna modalne** (Modal dialogs)
+5. **Zakładki i akordeony** (Tabs & Accordions)
+6. **Bannery** (Banners)
+7. **Etykiety/Tagi/Chipy** (Badges/Tags/Chips)
+8. **Podpowiedzi/Popovery** (Tooltips/Popovers)
+
+## Elementy Prezentacji Treści
+
+1. **Karty** (Cards)
+2. **Listy** (Lists)
+3. **Tabele** (Tables)
+4. **Obrazy** (Images)
+5. **Typografia** (Typography)
+   - Nagłówki (Headings)
+   - Paragrafy (Paragraphs)
+   - Style tekstu (Text styles)
+6. **Wykresy** (Charts)
+
+## Elementy Informacji Zwrotnej i Statusu
+
+1. **Paski ładowania** (Loading bars)
+2. **Komunikaty błędów** (Error messages/Alerts)
+3. **Powiadomienia o sukcesie** (Success notifications)
+4. **Paski postępu/Wskaźniki kroków** (Progress bars/Step indicators)
+5. **Powiadomienia toast** (Toast notifications)
+6. **Komunikaty walidacji** (Validation messages)
+
+## Komponenty Układu
+
+1. **Siatki** (Grids)
+2. **Kontenery** (Containers)
+3. **Odstępy** (Spacers/Spacing)
+
