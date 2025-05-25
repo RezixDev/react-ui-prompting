@@ -21,3 +21,9 @@ Przechodzimy wszystkie kroki:
 5. npm run dev
 
 Tym sposobem stworzyliśmy nasze środowisko wykonawcze. 
+
+Nasz projekt możemy podejrzeć pod adresem:
+http://localhost:5173/
+
+Następnie tworzymy w folderze src nowy folder o nazwie: "components" 
+
