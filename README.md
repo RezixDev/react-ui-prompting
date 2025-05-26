@@ -47,3 +47,96 @@ Components to be generated are:
 Let's start with the Header and generate those components step-by-step.
 
 ```
+
+### Lista możliwych Komponentów UI do wygenerowania
+
+#### Elementy UI
+
+Skoro mamy nasze prompty, to teraz czas zdefiniować potrzebne przez nas elementy UI.
+
+## Podstawowe Elementy Strukturalne
+
+1. **Header** (Nagłówek)
+2. **Navigation Bar/Menu** (Pasek nawigacji/Menu)
+3. **Main Content Area** (Główny obszar treści)
+4. **Sidebar** (Panel boczny)
+5. **Footer** (Stopka)
+
+## Elementy Interaktywne
+
+1. **Przyciski** (Buttons)
+2. **Formularze** (Forms)
+3. **Wyszukiwarki** (Search bars)
+4. **Okna modalne** (Modal dialogs)
+5. **Zakładki i akordeony** (Tabs & Accordions)
+6. **Bannery** (Banners)
+7. **Etykiety/Tagi/Chipy** (Badges/Tags/Chips)
+8. **Podpowiedzi/Popovery** (Tooltips/Popovers)
+9. **Suwaki** (Sliders/Range inputs)
+10. **Przełączniki** (Toggles/Switches)
+11. **Pola wyboru** (Checkboxes)
+12. **Przyciski radiowe** (Radio buttons)
+13. **Listy rozwijane** (Dropdowns/Select)
+14. **Paginacja** (Pagination)
+15. **Breadcrumbs** (Ścieżka nawigacji)
+
+## Elementy Prezentacji Treści
+
+1. **Karty** (Cards)
+2. **Listy** (Lists)
+3. **Tabele** (Tables)
+4. **Obrazy** (Images)
+5. **Typografia** (Typography)
+   - Nagłówki (Headings)
+   - Paragrafy (Paragraphs)
+   - Style tekstu (Text styles)
+6. **Wykresy** (Charts)
+7. **Kalendarze** (Calendars)
+8. **Timeline/Oś czasu** (Timeline)
+9. **Avatary** (Avatars)
+10. **Ikony** (Icons)
+11. **Galerie** (Galleries)
+12. **Karuzele/Slidery** (Carousels/Sliders)
+
+## Elementy Informacji Zwrotnej i Statusu
+
+1. **Paski ładowania** (Loading bars)
+2. **Komunikaty błędów** (Error messages/Alerts)
+3. **Powiadomienia o sukcesie** (Success notifications)
+4. **Paski postępu/Wskaźniki kroków** (Progress bars/Step indicators)
+5. **Powiadomienia toast** (Toast notifications)
+6. **Komunikaty walidacji** (Validation messages)
+7. **Skeletons/Placeholder** (Elementy ładowania)
+8. **Empty states** (Stany puste)
+9. **Spinners** (Wskaźniki ładowania)
+
+## Komponenty Układu
+
+1. **Siatki** (Grids)
+2. **Kontenery** (Containers)
+3. **Odstępy** (Spacers/Spacing)
+4. **Dividers/Separatory** (Separatory)
+5. **Breakpoints** (Punkty przełamania)
+
+## Elementy Nawigacyjne
+
+1. **Menu hamburger** (Hamburger menu)
+2. **Filtry** (Filters)
+3. **Sortowanie** (Sorting)
+4. **Wyszukiwanie zaawansowane** (Advanced search)
+5. **Sticky/Fixed elementy** (Przyklejone elementy)
+
+## Elementy Multimedialne
+
+1. **Odtwarzacze wideo** (Video players)
+2. **Odtwarzacze audio** (Audio players)
+3. **Upload plików** (File upload)
+4. **Drag & Drop** (Przeciągnij i upuść)
+
+## Elementy Dostępności
+
+1. **Focus indicators** (Wskaźniki fokusa)
+2. **Skip links** (Linki pomijające)
+3. **Screen reader elementy** (Elementy dla czytników ekranu)
+4. **High contrast mode** (Tryb wysokiego kontrastu)
+
