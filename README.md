@@ -699,6 +699,13 @@ Components to be generated are:
 6. Contact Section
 7. Footer
 
+Use Arrow Functions and Named Exports
+
+export const Header = ({ brandName = "Your Name" }: HeaderProps) => {
+  // component logic
+};
+
+
 Let's start with the Header and generate those components step-by-step.
 ```
 
