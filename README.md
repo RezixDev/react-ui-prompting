@@ -701,3 +701,36 @@ Components to be generated are:
 
 Let's start with the Header and generate those components step-by-step.
 ```
+
+Teraz AI zada prawdopdopodobnie wam kilka pytań, zanim zacznie generowanie komponentu.
+
+Claude się mnie spytał:
+
+
+Before I generate the Header component, I have a few questions to ensure I create the perfect component for your portfolio:
+
+1. **Navigation Style**: Would you prefer a traditional horizontal navigation menu, a hamburger menu for mobile, or a combination of both?
+
+2. **Logo/Branding**: Should the header include a logo, your name/initials, or just text-based branding?
+
+3. **Navigation Items**: What specific navigation links would you like in the header? (e.g., Home, About, Skills, Projects, Contact)
+
+4. **Header Behavior**: Do you want a sticky/fixed header that stays at the top when scrolling, or a static header?
+
+5. **Theme/Style Preference**: Any specific color scheme or style preference (dark/light theme, accent colors)?
+
+These details will help me create a header that perfectly matches your vision and sets the right tone for your portfolio.
+
+Na co mu dopowiedziałem:
+
+````
+combination of both, Horizontal on Desktop, Hamburger on Mobile and Tablet
+
+Text Based Branding
+
+Home, About, Skills, Projects, Contact
+
+Static
+
+Modern```
+
