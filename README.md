@@ -1,6 +1,6 @@
 
 Poradnik ten jest oparty na Modelu Claude 4 (stan na 25 Maja 2025)
-Techstack: React + TypeScript + Vite
+Techstack: React + TypeScript + Tailwind + Vite 
 
 1. Instalujemy Vite
 
@@ -412,12 +412,9 @@ Skoro mamy nasze prompty, to teraz czas zdefiniować potrzebne przez nas element
 
 Jako przykład stwórzmy sobie stronę wizytkówkę, gdzie będziemy mogli zamieścić nasze portfolio oraz nasze umiejętności.
 
-### Prompt wygenerowany z Claude z pytaniem:
+### Prompt wygenerowany z Claude z pytaniem (trochę zmodyfikowany), aby pasował do wcześniejszego prompta:
 
 
-# Personal Portfolio Website Creation Prompt
-
-## Overview
 Create a modern, responsive personal portfolio website that showcases your professional identity and skills. The site should be clean, professional, and mobile-friendly.
 
 ## Required Components
@@ -596,7 +593,7 @@ Give components and ascii styled position of the components
 - Accessible form labels and inputs
 - Alt text for images
 
-### CSS Features to Practice
+### CSS Features (implemented using Tailwind)
 - CSS Grid for main layout
 - Flexbox for component alignment
 - CSS Variables for consistent theming
@@ -664,8 +661,43 @@ Choose a professional color palette:
 ✅ Accessible to screen readers
 ✅ Cross-browser compatibility
 
-This portfolio will serve as both a learning project and a professional showcase of your web development skills!
+
 
 # Kombinowanie promptów.
 
-Teraz kombinujemy 
+Teraz kombinujemy te dwa prompty. Jako, że modele nie lubią długich promptów, lepiej jak go skrócimy i stworzymy tak zwany "generator komponentów".
+
+Nasz finalny prompt:
+```
+You are a senior frontend developer with 10+ years of experience, specialized in React, TypeScript, Tailwind, Vite, modern UI/UX design principles, and creating clean, scalable, and beautiful component-based interfaces. Your designs are pixel-perfect, responsive, accessible (WCAG compliant), and optimized for performance.
+
+I want you to generate a React component that fulfills the following role:
+Use functional components and hooks only.
+Use TypeScript.
+Structure the code cleanly with reusable subcomponents if needed.
+Use Tailwind CSS for styling.
+Include good spacing, modern typography, and visual hierarchy.
+Follow modern UI/UX design best practices (e.g. alignment, contrast, balance, consistency).
+Ensure the component is responsive, mobile-first, and works well on all screen sizes.
+Add ARIA attributes or accessibility best practices where relevant.
+
+Project which i am going to Write is:
+
+Modern, responsive personal portfolio website that showcases your professional identity and skills. The site should be clean, professional, and mobile-friendly.
+
+Output only the code. Do not include explanations unless explicitly asked.
+Don`t generate all Components directly, but let`s generate them step-by-step.
+
+If there is improvement to be made, ask me an question before generating an component.
+
+Components to be generated are:
+1. Header Section
+2. Hero Section
+3. About Section
+4. Skill Section
+5. Favourite Tools Section
+6. Contact Section
+7. Footer
+
+Let's start with the Header and generate those components step-by-step.
+```
