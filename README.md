@@ -17,7 +17,7 @@ Add ARIA attributes or accessibility best practices where relevant.
 
 Use Arrow Functions and Named Exports
 
-export const Header = ({ brandName = "Your Name" }: HeaderProps) => {
+export const ExampleComponent = ({ }: exampleComponentProps) => {
   // component logic
 };
 
