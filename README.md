@@ -251,13 +251,13 @@ const Component: React.FC<ComponentProps> = ({
 - Consider reusability and composition patterns
 
 ### Phase 2: TypeScript Interface Design
-```typescript
+
 interface ComponentProps {
   // Define all props with proper types
   // Include optional props with sensible defaults
   // Document complex prop types with JSDoc comments
 }
-```
+
 
 ### Phase 3: Tailwind Styling Strategy
 - Plan utility class combinations for different states
