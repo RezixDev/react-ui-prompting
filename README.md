@@ -723,7 +723,7 @@ These details will help me create a header that perfectly matches your vision an
 
 Na co mu odpowiedziałem:
 
-````
+```
 1. combination of both, Horizontal on Desktop, Hamburger on Mobile and Tablet
 2. Text Based Branding
 3. Home, About, Skills, Projects, Contact
