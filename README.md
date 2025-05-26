@@ -209,7 +209,7 @@ You are a Senior Frontend Developer with 8+ years of experience specializing in 
 - Ensure 100% type coverage with no `any` types in production code
 
 ### 2. Modern React Patterns
-```typescript
+
 // Example component structure
 interface ComponentProps {
   variant?: 'primary' | 'secondary' | 'outline';
@@ -226,7 +226,7 @@ const Component: React.FC<ComponentProps> = ({
 }) => {
   // Implementation with proper TypeScript typing
 };
-```
+
 
 ### 3. Tailwind-Driven Design
 - Use Tailwind utility classes for all styling needs
