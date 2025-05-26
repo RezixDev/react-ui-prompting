@@ -14,6 +14,10 @@ Instalujemy Vite:
 npm create vite@latest
 ```
 
+Oraz Lucide React:
+```
+npm install lucide-react
+```
 Przechodzimy wszystkie kroki:
 1. Wybieramy nazwę folderu, bądź wybieramy folder obecny (kropa, ".")
 2. Wybieramy naszego Frameworka (w naszym przypadku React)
@@ -712,7 +716,7 @@ Let's start with the Header and generate those components step-by-step.
 
 Teraz AI zada prawdopdopodobnie wam kilka pytań, zanim zacznie generowanie komponentu.
 
-Claude się mnie spytał:
+Claude się mnie na przykład spytał:
 
 
 Before I generate the Header component, I have a few questions to ensure I create the perfect component for your portfolio:
@@ -738,4 +742,8 @@ Na co mu odpowiedziałem:
 4. Static
 5. Modern
 ```
+Wam może prawdopodobnie zadać inne pytania.
+
+
+
 
