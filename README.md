@@ -256,3 +256,257 @@ Skoro mamy nasze prompty, to teraz czas zdefiniować potrzebne przez nas element
 
 Jako przykład stwórzmy sobie stronę wizytkówkę, gdzie będziemy mogli zamieścić nasze portfolio oraz nasze umiejętności.
 
+### Prompt wygenerowany z Claude z pytaniem:
+
+
+# Personal Portfolio Website Creation Prompt
+
+## Overview
+Create a modern, responsive personal portfolio website that showcases your professional identity and skills. The site should be clean, professional, and mobile-friendly.
+
+## Required Components
+
+### 1. Header/Navigation
+- Your name/logo
+- Navigation menu (Home, About, Skills, Tools, Contact)
+- Responsive hamburger menu for mobile
+
+### 2. Hero Section
+- Large title with your name
+- Professional tagline/subtitle
+- Call-to-action button
+- Optional: Professional photo
+
+### 3. About Section
+- Short bio (2-3 paragraphs)
+- Professional background
+- What you're passionate about
+- Current focus/goals
+
+### 4. Skills Section
+- Technical skills with proficiency levels
+- Visual representation (progress bars, icons, or badges)
+- Categorized by type (Frontend, Backend, Tools, etc.)
+
+### 5. Favorite Tools Section
+- Grid/list of your preferred development tools
+- Tool icons and names
+- Brief description of why you use each
+
+### 6. Contact Section
+- Contact form with fields:
+  - Name (required)
+  - Email (required)
+  - Subject
+  - Message (required)
+- Form validation
+- Social media links
+- Professional email address
+
+### 7. Footer
+- Copyright information
+- Additional social links
+- Back to top button
+
+## ASCII Layout Structure
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        HEADER                               │
+│  [Logo/Name]                    [Nav: Home About Skills...] │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                      HERO SECTION                          │
+│                                                             │
+│              [Your Name - Large Title]                     │
+│              [Professional Tagline]                        │
+│              [Call-to-Action Button]                       │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                     ABOUT SECTION                          │
+│                                                             │
+│  [Photo]    │  [Bio Paragraph 1]                          │
+│   (opt)     │  [Bio Paragraph 2]                          │
+│             │  [Bio Paragraph 3]                          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                    SKILLS SECTION                          │
+│                                                             │
+│  Frontend:           Backend:           Other:              │
+│  [HTML] ████████░░   [Node.js] ██████░░░░   [Git] ████░░░░░░ │
+│  [CSS]  ███████░░░   [Python] ████████░░   [AWS] ███░░░░░░░ │
+│  [JS]   ██████░░░░   [SQL]    █████░░░░░   [Docker] ██░░░░░░ │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                 FAVORITE TOOLS SECTION                     │
+│                                                             │
+│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐        │
+│  │[VS Icon]│  │[Git Icon]│  │[Figma]  │  │[Docker] │        │
+│  │VS Code  │  │  Git    │  │ Icon    │  │  Icon   │        │
+│  │"Reason" │  │"Reason" │  │"Reason" │  │"Reason" │        │
+│  └─────────┘  └─────────┘  └─────────┘  └─────────┘        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                   CONTACT SECTION                          │
+│                                                             │
+│  ┌─────────────────────┐    ┌───────────────────────────┐   │
+│  │    CONTACT FORM     │    │      CONTACT INFO         │   │
+│  │ [Name Input]        │    │ 📧 your.email@domain.com  │   │
+│  │ [Email Input]       │    │ 🔗 LinkedIn Profile       │   │
+│  │ [Subject Input]     │    │ 🐙 GitHub Profile         │   │
+│  │ [Message Textarea]  │    │ 🐦 Twitter Handle         │   │
+│  │ [Send Button]       │    │                           │   │
+│  └─────────────────────┘    └───────────────────────────┘   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                        FOOTER                              │
+│        © 2025 Your Name | [Social Links] | [Back to Top]   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## Mobile Layout (Responsive)
+
+```
+┌─────────────────┐
+│ [☰] Your Name   │  ← Hamburger menu
+└─────────────────┘
+
+┌─────────────────┐
+│   HERO SECTION  │
+│                 │
+│  [Your Name]    │
+│  [Tagline]      │
+│  [CTA Button]   │
+└─────────────────┘
+
+┌─────────────────┐
+│ ABOUT (Stacked) │
+│                 │
+│    [Photo]      │
+│                 │
+│ [Bio Text...]   │
+└─────────────────┘
+
+┌─────────────────┐
+│ SKILLS (Stacked)│
+│                 │
+│ Frontend:       │
+│ [Skill bars...] │
+│                 │
+│ Backend:        │
+│ [Skill bars...] │
+└─────────────────┘
+
+┌─────────────────┐
+│TOOLS (2x2 Grid) │
+│ [Tool1] [Tool2] │
+│ [Tool3] [Tool4] │
+└─────────────────┘
+
+┌─────────────────┐
+│ CONTACT FORM    │
+│ (Full width)    │
+│                 │
+│ CONTACT INFO    │
+│ (Below form)    │
+└─────────────────┘
+```
+
+## Technical Requirements
+```
+create prompt for creating this page:
+1. Personal Portfolio
+What to include: Your name, a short bio, skills, contact form, and maybe a list of your favorite tools.
+
+Goal: Learn layout, navigation, responsive design.
+
+Give components and ascii styled position of the components
+```
+
+### HTML Structure
+- Semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
+- Proper heading hierarchy (h1, h2, h3)
+- Accessible form labels and inputs
+- Alt text for images
+
+### CSS Features to Practice
+- CSS Grid for main layout
+- Flexbox for component alignment
+- CSS Variables for consistent theming
+- Media queries for responsive design
+- Smooth scrolling and transitions
+- Mobile-first approach
+
+### JavaScript Functionality
+- Form validation
+- Smooth scroll navigation
+- Mobile menu toggle
+- Contact form submission handling
+- Optional: Theme toggle (light/dark mode)
+
+### Responsive Breakpoints
+- Mobile: 320px - 768px
+- Tablet: 768px - 1024px
+- Desktop: 1024px+
+
+## Design Guidelines
+
+### Color Scheme
+Choose a professional color palette:
+- Primary color (your brand color)
+- Secondary color (complement)
+- Neutral colors (grays for text)
+- Accent color (for CTAs)
+
+### Typography
+- Choose 1-2 web fonts maximum
+- Establish clear hierarchy
+- Ensure readability on all devices
+
+### Spacing & Layout
+- Consistent margins and padding
+- White space for visual breathing room
+- Grid-based alignment
+- Consistent component sizing
+
+## Content Examples
+
+### Bio Template
+"Hi, I'm [Your Name], a [Your Role] passionate about [Your Interests]. With experience in [Your Skills], I love creating [What You Build]. Currently focused on [Current Goals/Projects]. When I'm not coding, you can find me [Personal Interests]."
+
+### Skills to Include
+- Programming languages
+- Frameworks/libraries
+- Design tools
+- Development tools
+- Soft skills
+
+### Tool Examples
+- Code Editor (VS Code, Sublime)
+- Version Control (Git, GitHub)
+- Design (Figma, Adobe XD)
+- DevOps (Docker, AWS)
+- Communication (Slack, Discord)
+
+## Success Criteria
+✅ Fully responsive on all devices
+✅ Clean, professional design
+✅ Working contact form
+✅ Smooth navigation
+✅ Fast loading times
+✅ Accessible to screen readers
+✅ Cross-browser compatibility
+
+This portfolio will serve as both a learning project and a professional showcase of your web development skills!
+
