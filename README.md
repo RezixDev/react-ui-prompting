@@ -254,3 +254,5 @@ Skoro mamy nasze prompty, to teraz czas zdefiniować potrzebne przez nas element
 3. **Screen reader elementy** (Elementy dla czytników ekranu)
 4. **High contrast mode** (Tryb wysokiego kontrastu)
 
+Jako przykład stwórzmy sobie stronę wizytkówkę, gdzie będziemy mogli zamieścić nasze portfolio oraz nasze umiejętności.
+
