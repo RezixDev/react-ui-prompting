@@ -721,16 +721,13 @@ Before I generate the Header component, I have a few questions to ensure I creat
 
 These details will help me create a header that perfectly matches your vision and sets the right tone for your portfolio.
 
-Na co mu dopowiedziałem:
+Na co mu odpowiedziałem:
 
 ````
-combination of both, Horizontal on Desktop, Hamburger on Mobile and Tablet
-
-Text Based Branding
-
-Home, About, Skills, Projects, Contact
-
-Static
-
-Modern```
+1. combination of both, Horizontal on Desktop, Hamburger on Mobile and Tablet
+2. Text Based Branding
+3. Home, About, Skills, Projects, Contact
+4. Static
+5. Modern
+```
 
