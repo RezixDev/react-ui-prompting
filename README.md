@@ -20,7 +20,19 @@ We don"t need to import React anymore
 Define const values at the top level (outside of the component).
 Use static anchor tags instead of onClick. 
 Avoid using onClick
-instead of <style jsx>{`, use CSS-in-JS
+instead of <style jsx>{`, use CSS-in-JS like this:
+````
+ const fadeInUpStyle = {
+    animation: 'fade-in-up 0.8s ease-out forwards',
+    opacity: 0
+  };
+
+   <div style={{ ...fadeInUpStyle, animationDelay: '0.2s' }}>
+    <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-4 font-medium">
+      Hello, I'm
+    </p>
+  </div>
+```
 
 Use Arrow Functions and Named Exports
 
