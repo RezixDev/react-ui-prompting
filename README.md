@@ -14,6 +14,9 @@ Include good spacing, modern typography, and visual hierarchy.
 Follow modern UI/UX design best practices (e.g. alignment, contrast, balance, consistency).
 Ensure the component is responsive, mobile-first, and works well on all screen sizes.
 Add ARIA attributes or accessibility best practices where relevant.
+Be sparse with useEffect, use it only if needed.
+Because we are using React 19, memo, useMemo and useCallback is no longer necessary
+We don"t need to import React anymore
 
 Use Arrow Functions and Named Exports
 
