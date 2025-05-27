@@ -21,7 +21,7 @@ Define const values at the top level (outside of the component).
 Use static anchor tags instead of onClick. 
 Avoid using onClick
 instead of <style jsx>{`, use CSS-in-JS like this:
-````
+```
  const fadeInUpStyle = {
     animation: 'fade-in-up 0.8s ease-out forwards',
     opacity: 0
