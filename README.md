@@ -1,4 +1,4 @@
-# Generowanie Komponentøw UI w Reacie pod dany Projekt
+# Generowanie Komponentów UI w Reacie pod dany Projekt
 
 ## Prompt do generowania komponentów UI w Reacie 
 
