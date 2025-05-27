@@ -18,7 +18,6 @@ function App() {
       <FavouriteTools />
       <Contact />
       <Footer />
-
     </>
   )
 }

@@ -1,11 +1,19 @@
 import { useState, useEffect } from 'react';
 import { ChevronUp, Mail } from 'lucide-react';
 
+const navigationItems = [
+  { name: 'Home', href: '#home' },
+  { name: 'About', href: '#about' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Tools', href: '#tools' },
+  { name: 'Contact', href: '#contact' },
+];
+
+
 export const Footer = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const [currentYear] = useState(new Date().getFullYear());
+  const currentYear = new Date().getFullYear();
 
-  // Show/hide back to top button based on scroll position
   useEffect(() => {
     const handleScroll = () => {
       setShowBackToTop(window.scrollY > 500);
@@ -15,13 +23,6 @@ export const Footer = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navigationItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Tools', href: '#tools' },
-    { name: 'Contact', href: '#contact' },
-  ];
 
   const handleNavClick = (href: string) => {
     const element = document.querySelector(href);
