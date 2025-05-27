@@ -20,6 +20,7 @@ We don"t need to import React anymore
 Define const values at the top level (outside of the component).
 Use static anchor tags instead of onClick. 
 Avoid using onClick
+instead of <style jsx>{`, use CSS-in-JS
 
 Use Arrow Functions and Named Exports
 
