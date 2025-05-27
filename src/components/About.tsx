@@ -1,9 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Download, Code, Users, Coffee, Award } from 'lucide-react';
 
-interface AboutProps {
-  isDarkMode?: boolean;
-}
 
 interface StatItemProps {
   icon: React.ReactNode;
@@ -80,7 +77,7 @@ const StatItem = ({ icon, number, label, suffix = '', delay = 0 }: StatItemProps
   );
 };
 
-export const About = ({ isDarkMode = false }: AboutProps) => {
+export const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLElement>(null);
 

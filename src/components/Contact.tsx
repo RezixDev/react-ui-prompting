@@ -1,10 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mail, Github, Linkedin, Twitter, Send, MapPin, Phone, Clock } from 'lucide-react';
 
-interface ContactProps {
-  isDarkMode?: boolean;
-}
-
 interface FormData {
   name: string;
   email: string;
@@ -17,7 +13,7 @@ interface FormErrors {
   message?: string;
 }
 
-export const Contact = ({ isDarkMode = false }: ContactProps) => {
+export const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: '',

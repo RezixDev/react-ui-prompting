@@ -1,9 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Code, Palette, Zap, Globe, Database, Terminal, Figma, Smartphone, Cloud, GitBranch, Monitor, Package } from 'lucide-react';
-
-interface ToolsProps {
-  isDarkMode?: boolean;
-}
 
 interface Tool {
   name: string;
@@ -103,7 +99,7 @@ const ToolCategory = ({ title, categoryIcon, tools, isVisible, delay = 0 }: Tool
   );
 };
 
-export const FavouriteTools = ({ isDarkMode = false }: ToolsProps) => {
+export const FavouriteTools = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLElement>(null);
 

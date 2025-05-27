@@ -1,10 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Code, Server } from 'lucide-react';
 
-interface SkillsProps {
-  isDarkMode?: boolean;
-}
-
 interface Skill {
   name: string;
   percentage: number;
@@ -103,7 +99,7 @@ const SkillCategory = ({ title, icon, skills, isVisible, delay = 0 }: SkillCateg
   );
 };
 
-export const Skills = ({ isDarkMode = false }: SkillsProps) => {
+export const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLElement>(null);
 

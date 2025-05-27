@@ -1,18 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronUp, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ChevronUp, Mail } from 'lucide-react';
 
-interface FooterProps {
-  isDarkMode?: boolean;
-}
-
-export const Footer = ({ isDarkMode = false }: FooterProps) => {
+export const Footer = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-
-  // Update current year
-  useEffect(() => {
-    setCurrentYear(new Date().getFullYear());
-  }, []);
+  const [currentYear] = useState(new Date().getFullYear());
 
   // Show/hide back to top button based on scroll position
   useEffect(() => {
@@ -30,33 +21,6 @@ export const Footer = ({ isDarkMode = false }: FooterProps) => {
     { name: 'Skills', href: '#skills' },
     { name: 'Tools', href: '#tools' },
     { name: 'Contact', href: '#contact' },
-  ];
-
-  const socialLinks = [
-    {
-      name: 'Email',
-      icon: <Mail className="w-5 h-5" />,
-      href: 'mailto:john.doe@example.com',
-      color: 'hover:text-blue-600 dark:hover:text-blue-400'
-    },
-    {
-      name: 'GitHub',
-      icon: <Github className="w-5 h-5" />,
-      href: 'https://github.com/',
-      color: 'hover:text-gray-800 dark:hover:text-gray-300'
-    },
-    {
-      name: 'LinkedIn',
-      icon: <Linkedin className="w-5 h-5" />,
-      href: 'https://linkedin.com/',
-      color: 'hover:text-blue-700 dark:hover:text-blue-500'
-    },
-    {
-      name: 'Twitter',
-      icon: <Twitter className="w-5 h-5" />,
-      href: 'https://twitter.com/',
-      color: 'hover:text-blue-500 dark:hover:text-blue-400'
-    }
   ];
 
   const handleNavClick = (href: string) => {
@@ -112,20 +76,16 @@ export const Footer = ({ isDarkMode = false }: FooterProps) => {
                 ))}
               </nav>
 
-              {/* Social Links */}
+              {/* Contact Link */}
               <div className="flex items-center gap-4">
-                {socialLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`p-2 rounded-lg text-gray-600 dark:text-gray-400 ${link.color} transition-all duration-200 transform hover:scale-110`}
-                    aria-label={`Visit my ${link.name} profile`}
-                  >
-                    {link.icon}
-                  </a>
-                ))}
+                <a
+                  href="mailto:john.doe@example.com"
+                  className="flex items-center gap-2 p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 transform hover:scale-105"
+                  aria-label="Send me an email"
+                >
+                  <Mail className="w-5 h-5" />
+                  <span className="text-sm font-medium">Contact</span>
+                </a>
               </div>
             </div>
 
