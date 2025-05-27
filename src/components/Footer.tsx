@@ -9,7 +9,6 @@ const navigationItems = [
   { name: 'Contact', href: '#contact' },
 ];
 
-
 export const Footer = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const currentYear = new Date().getFullYear();
