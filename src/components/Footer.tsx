@@ -23,14 +23,6 @@ export const Footer = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-
-  const handleNavClick = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const handleBackToTop = () => {
     window.scrollTo({
       top: 0,
@@ -67,10 +59,6 @@ export const Footer = () => {
                     key={item.name}
                     href={item.href}
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-medium transition-colors duration-200"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      handleNavClick(item.href);
-                    }}
                   >
                     {item.name}
                   </a>
