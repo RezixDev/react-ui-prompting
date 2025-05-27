@@ -17,6 +17,9 @@ Add ARIA attributes or accessibility best practices where relevant.
 Be sparse with useEffect, use it only if needed.
 Because we are using React 19, memo, useMemo and useCallback is no longer necessary
 We don"t need to import React anymore
+Define const values at the top level (outside of the component).
+Use static anchor tags instead of onClick. 
+Avoid using onClick
 
 Use Arrow Functions and Named Exports
 
